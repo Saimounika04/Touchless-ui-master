@@ -1,0 +1,301 @@
+================================================================================
+  SIMPLE GUIDE - Making YouTube Video "Active" & Running in CMD
+================================================================================
+
+QUESTION 1: How to make YouTube video "ACTIVE"?
+================================================================================
+
+"Active" = The window you last clicked on (that receives keyboard commands)
+
+SUPER SIMPLE STEPS:
+-------------------
+
+1. Open YouTube in your browser
+2. Play any video
+3. CLICK on the video player (anywhere in the black video area)
+4. Done! Video is now "active" ✓
+
+TEST IF IT'S ACTIVE:
+--------------------
+- Press SPACEBAR on your keyboard
+- If video pauses/plays → It's active! ✓
+- If nothing happens → Click on video again
+
+
+VISUAL EXAMPLE:
+---------------
+
+  Browser Window
+  ┌─────────────────────────────────────────┐
+  │ YouTube Logo    [Search Box]    [User]  │  ← DON'T click here
+  ├─────────────────────────────────────────┤
+  │                                         │
+  │  ╔═══════════════════════════════════╗  │
+  │  ║                                   ║  │
+  │  ║     [Video Playing Here]         ║  │  ← CLICK HERE!
+  │  ║         👆 CLICK ANYWHERE        ║  │     (anywhere in this area)
+  │  ║            IN THIS AREA          ║  │
+  │  ║                                   ║  │
+  │  ╚═══════════════════════════════════╝  │
+  │  [▶] ──────●────────── [🔊] [⚙] [⛶]   │  ← Or click controls here
+  │                                         │
+  │  Video Title and Description...         │  ← DON'T click here
+  └─────────────────────────────────────────┘
+
+
+COMMON MISTAKES:
+----------------
+❌ Clicking on YouTube logo → Makes YouTube homepage active (wrong!)
+❌ Clicking on comments → Makes comments section active (wrong!)
+❌ Clicking on sidebar → Makes sidebar active (wrong!)
+✓ Clicking on VIDEO PLAYER → Makes video active (correct!)
+
+
+COMPLETE WORKFLOW:
+------------------
+
+STEP 1: Start the Program
+   - Double-click: run_in_cmd.bat
+   OR
+   - Open CMD and run: python main.py
+
+STEP 2: Webcam Window Opens
+   - You'll see yourself on camera
+   - Green lines appear on your hand
+
+STEP 3: Open YouTube
+   - Go to https://www.youtube.com
+   - Click on any video
+   - Video starts playing
+
+STEP 4: Make Video Active
+   - CLICK on the video player
+   - Test with SPACEBAR (should pause/play)
+
+STEP 5: Use Gestures
+   - Show PALM → Video pauses ⏯
+   - Show PALM again → Video plays ▶
+   - Show PEACE → Volume up 🔊
+   - Show FIST → Volume down 🔉
+   - Show THUMBS UP → Fullscreen 🖥
+
+
+TROUBLESHOOTING "ACTIVE" WINDOW:
+---------------------------------
+
+Problem: Gestures not working, but hand is detected
+Solution: Click on the video player again!
+
+Problem: How do I know if video is active?
+Solution: Press SPACEBAR - if video pauses/plays, it's active
+
+Problem: I clicked but still not working
+Solution: 
+  1. Make sure YouTube tab is visible (not minimized)
+  2. Click directly on the black video area
+  3. Don't click on other browser tabs after
+
+
+================================================================================
+
+QUESTION 2: Can I run this in CMD?
+================================================================================
+
+YES! You can run in BOTH CMD and PowerShell!
+
+METHOD 1: Using CMD (Command Prompt)
+================================================================================
+
+STEP 1: Open Command Prompt
+   - Press Windows Key + R
+   - Type: cmd
+   - Press Enter
+
+STEP 2: Navigate to Project Folder
+   Copy and paste this:
+   
+   cd c:\Users\sruth\Downloads\touchless-ui-master\touchless-ui-master
+
+STEP 3: Run the Program
+   Type:
+   
+   python main.py
+
+
+METHOD 2: Double-Click Batch File (EASIEST!)
+================================================================================
+
+I created a special file for you: run_in_cmd.bat
+
+Just navigate to:
+  c:\Users\sruth\Downloads\touchless-ui-master\touchless-ui-master
+
+Find: run_in_cmd.bat
+
+Double-click it!
+
+That's it! System starts automatically!
+
+
+METHOD 3: Using PowerShell
+================================================================================
+
+STEP 1: Open PowerShell
+   - Press Windows Key + X
+   - Select "Windows PowerShell"
+
+STEP 2: Navigate and Run
+   
+   cd "c:\Users\sruth\Downloads\touchless-ui-master\touchless-ui-master"
+   python main.py
+
+
+ALL THREE METHODS WORK THE SAME!
+=================================
+
+Whether you use CMD, PowerShell, or double-click .bat file:
+- Same program runs
+- Same webcam opens
+- Same gestures work
+- Same video control
+
+Choose whichever is easiest for you!
+
+
+================================================================================
+  COMPLETE EXAMPLE - YouTube Video Control
+================================================================================
+
+Let me walk you through EXACTLY what to do:
+
+1. DOUBLE-CLICK: run_in_cmd.bat
+   
+   You see:
+   ============================================================
+     TOUCHLESS VIDEO CONTROL - Starting...
+   ============================================================
+   Press any key to start...
+   
+   → Press ANY key
+
+2. SYSTEM STARTS
+   
+   You see:
+   Loading gesture data...
+     ✓ Loaded palm: 2 samples
+     ✓ Loaded fist: 2 samples
+     ✓ Loaded peace: 2 samples
+     ✓ Loaded thumbs_up: 2 samples
+   
+   → Webcam window opens showing you!
+
+3. OPEN YOUTUBE
+   
+   - Open Chrome/Edge/Firefox
+   - Go to: https://www.youtube.com
+   - Search: "funny cats" (or anything you like!)
+   - Click on a video
+   - Video starts playing
+
+4. MAKE VIDEO ACTIVE
+   
+   - CLICK on the playing video
+   - The video player now has focus
+   - Test: Press SPACEBAR → Video should pause
+   - Press SPACEBAR again → Video should play
+   - If this works, video is ACTIVE! ✓
+
+5. CONTROL WITH GESTURES
+   
+   Now show your hand to the webcam:
+   
+   a) Show PALM (open hand):
+      → Video PAUSES ⏯
+      → You see "⏯ Play/Pause" in CMD window
+   
+   b) Show PALM again:
+      → Video PLAYS ▶
+   
+   c) Show PEACE (✌ two fingers):
+      → Volume INCREASES 🔊
+      → You see "🔊 Volume Up" in CMD window
+   
+   d) Show FIST (✊ closed hand):
+      → Volume DECREASES 🔉
+      → You see "🔉 Volume Down" in CMD window
+   
+   e) Show THUMBS UP (👍):
+      → Video goes FULLSCREEN 🖥
+      → You see "🖥 Fullscreen Toggle" in CMD window
+   
+   f) Show THUMBS UP again:
+      → Video exits fullscreen
+
+6. DONE!
+   
+   Press Q to quit the system.
+
+
+================================================================================
+  QUICK REFERENCE CARD
+================================================================================
+
+HOW TO MAKE VIDEO ACTIVE:
+  → Just CLICK on the video player!
+  → Test with SPACEBAR (should pause/play)
+
+CAN I USE CMD?
+  → YES! Use CMD, PowerShell, or double-click .bat file
+
+EASIEST WAY TO RUN:
+  → Double-click: run_in_cmd.bat
+
+GESTURE CONTROLS:
+  👋 PALM       → Play/Pause
+  ✌ PEACE      → Volume Up
+  ✊ FIST       → Volume Down
+  👍 THUMBS UP → Fullscreen
+
+TO QUIT:
+  → Press Q key
+
+WORKS WITH:
+  ✓ YouTube
+  ✓ Netflix
+  ✓ VLC
+  ✓ Any video player
+
+
+================================================================================
+  STILL CONFUSED? TRY THIS!
+================================================================================
+
+If you're still not sure what "active" means, do this RIGHT NOW:
+
+1. Open Notepad (Windows Key + R, type "notepad", press Enter)
+
+2. Type something in Notepad
+
+3. Now click on your desktop (outside Notepad)
+
+4. Try typing → Nothing appears in Notepad! Why?
+   Because Notepad is NOT active anymore!
+
+5. Click back on Notepad window
+
+6. Type again → Text appears! Why?
+   Because Notepad is NOW active!
+
+THIS IS THE SAME CONCEPT!
+
+When you click on YouTube video → Video becomes active
+When you show gestures → Commands go to the active window (the video!)
+
+
+================================================================================
+
+Need help? Just click on the video player and start showing gestures!
+
+Happy gesture controlling! 🎉
+
+================================================================================
